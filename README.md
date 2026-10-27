@@ -1,137 +1,292 @@
 <div align="center">
 
-<img src="assets/logo.png" width="112" alt="Cursora logo">
+<img src="assets/logo.png" width="104" alt="Cursora logo">
 
 # Cursora
 
-### Your AI companion, right at your cursor.
+### Ask AI about anything you select, right where you are.
 
-Select anything &nbsp;·&nbsp; press <kbd>Ctrl</kbd> + <kbd>G</kbd> &nbsp;·&nbsp; ask
+Select text in any app &nbsp;·&nbsp; press <kbd>Ctrl</kbd> + <kbd>G</kbd> &nbsp;·&nbsp; ask.<br>
+No copying, no pasting, no switching windows.
 
-<a href="https://github.com/priyansh1210/cursora-releases/releases/latest"><b>Download the latest version</b></a>
-&nbsp;&nbsp;|&nbsp;&nbsp; Windows 10 / 11 &nbsp;·&nbsp; Linux
+<br>
+
+<a href="https://github.com/priyansh1210/cursora-releases/releases/latest"><img src="https://img.shields.io/badge/Download_for_Windows-15803d?style=for-the-badge" alt="Download for Windows" height="36"></a>
+&nbsp;
+<a href="https://github.com/priyansh1210/cursora-releases/releases/latest"><img src="https://img.shields.io/badge/Download_for_Linux-166534?style=for-the-badge" alt="Download for Linux" height="36"></a>
+
+<a href="https://github.com/priyansh1210/cursora-releases/releases/latest"><img src="https://img.shields.io/github/v/release/priyansh1210/cursora-releases?style=flat-square&color=15803d&label=version" alt="Latest version"></a>
+<img src="https://img.shields.io/badge/Windows-10_%7C_11-56615a?style=flat-square" alt="Windows 10 and 11">
+<img src="https://img.shields.io/badge/Linux-beta-56615a?style=flat-square" alt="Linux beta">
+<img src="https://img.shields.io/badge/account-not_needed-56615a?style=flat-square" alt="No account needed">
+
+<br><br>
+
+<img src="assets/bubble.png" width="400" alt="The Cursora bubble beside a selected paragraph, answering with a model on this computer">
 
 </div>
 
----
+<br>
 
-You're reading an error message, a paragraph in a PDF, or a contract in your browser, and you have a question about it. With Cursora you don't copy, paste or switch windows. **Select it, press the hotkey, and a small chat bubble opens right where your mouse is**, with your selection already attached. Ask, read the answer, press the hotkey again, and you're back where you were.
+## How it works
 
-Use an AI model on your own computer, or your own key for a cloud service. Nothing goes anywhere you didn't choose.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-<div align="center">
-<img src="assets/bubble.png" width="420" alt="The Cursora bubble answering a question">
-&nbsp;&nbsp;
-<img src="assets/skills.png" width="420" alt="Typing / in the bubble lists the skills">
-</div>
+**1. Select**
 
-## Download
+A paragraph on a web page, a sentence in a PDF, an email, an error in your terminal, a few lines of code. Even files in File Explorer.
 
-| | |
-|---|---|
-| **Windows 10 / 11** (64-bit) | `Cursora_<version>_x64_en-US.msi` |
-| **Linux**, Debian and Ubuntu | `Cursora_<version>_amd64.deb` |
-| **Linux**, Fedora | `Cursora-<version>-1.x86_64.rpm` |
-| **Linux**, any distribution | `Cursora_<version>_amd64.AppImage` |
+</td>
+<td width="33%" valign="top">
 
-Get them from the **[latest release](https://github.com/priyansh1210/cursora-releases/releases/latest)**. Each one includes Cursora's built-in AI engine, so there's nothing else to install.
+**2. Press <kbd>Ctrl</kbd> + <kbd>G</kbd>**
 
-> [!NOTE]
-> **Windows may say "Windows protected your PC"** when you open the installer. Cursora is new and not yet signed with a paid certificate, so Windows doesn't know it yet. Click **More info**, then **Run anyway**. A **Microsoft Store** version, signed by Microsoft and free of this warning, is on its way.
+A small chat bubble opens right at your mouse, with your selection already attached. Nothing selected? It opens as a plain chat.
 
-## What it does
+</td>
+<td width="33%" valign="top">
 
-**Works with anything you can select.** Browsers, PDF viewers, Word and Excel, editors, terminals, chat apps, and even files and folders in File Explorer. Nothing selected? The bubble opens as a plain chat.
+**3. Ask**
 
-**A bubble, not another window.** It opens at your cursor and streams the answer as it's written, with formatted text and highlighted code. Ask follow-up questions, or press **Expand** to continue in a bigger window.
+Read the answer as it's written, ask a follow-up, or put the answer straight back into your app. Press <kbd>Ctrl</kbd> + <kbd>G</kbd> again and you're back where you were.
 
-**Snip anything on screen.** Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> and drag a box around an image, a chart, a video frame or a scanned page, then ask about it. This works with AI models that can read images.
+</td>
+</tr>
+</table>
 
-**Skills, one word away.** Type `/` in the bubble:
+## New in 0.2
 
-| | |
-|---|---|
-| `/summary` | Summarize the selection in a few bullet points |
-| `/explain` | Explain what it means |
-| `/simplify` | Rewrite it in simpler words |
-| `/define` | Define a word or phrase |
-| `/translate <language>` | Translate it |
-| `/fix` | Fix grammar, spelling and punctuation |
-| `/rewrite <tone>` | Rewrite it in another tone |
-| `/code` | Explain what a piece of code does |
-| `/bugs` | Find bugs in it |
+- **Replace and Insert:** put the answer straight back into the app you were in.
+- **Quick actions:** one-click buttons that suit the app your text came from.
+- **A free AI model in one click,** right in the first-time setup.
+- **My language:** Hindi, Hinglish, Bengali, Tamil and nine more Indian languages.
+- **Pin and Save** an answer you want to keep.
+- **A new look:** calmer, lighter, easier to read.
 
-You can make your own skills too, and save any question you asked as one.
+<br>
 
-**A companion with a personality, or none.** Pick a persona (Cursora, Ada, Arjun or Sage), make your own with its own name, tone and level of detail, or turn personality off for the plain model.
+## Do more with what you select
 
-**History.** Conversations stay on your computer, searchable, for 90 days by default. You can switch saving off.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Updates itself.** Cursora checks this page once a day. When there's a new version, it says so in its tray menu, and one click installs it.
+### One click for the usual jobs
 
-<div align="center">
-<img src="assets/setup.png" width="420" alt="First-time setup: choose an AI source">
-</div>
+Before you type a word, the bubble offers the jobs that suit the app you're in:
+
+- **Mail and chat:** Reply, Fix, More polite, Shorter, Translate
+- **Code:** Explain, Find bugs, Explain error, Summarize
+- **Terminals:** Explain error, Explain command
+- **Everything else:** Fix, Rewrite, Shorter, Explain, Summarize, Translate
+
+<kbd>Alt</kbd> + <kbd>1</kbd> to <kbd>6</kbd> press them, and your favourite skills can go first.
+
+</td>
+<td width="50%" valign="top">
+
+<img src="assets/quick.png" width="100%" alt="Quick-action buttons above the question box: Fix, Rewrite, Shorter, Explain, Summarize, Translate">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="assets/skills.png" width="100%" alt="Typing / in the bubble lists the skills">
+
+</td>
+<td width="50%" valign="top">
+
+### Skills, one word away
+
+Type `/` in the bubble:
+
+- `/summary` a few bullet points
+- `/explain` what it means
+- `/simplify` the same, in simpler words
+- `/fix` grammar, spelling and punctuation
+- `/rewrite <tone>` in another tone
+- `/translate <language>` into any language
+- `/reply` a reply to the message
+- `/error` what went wrong, and how to fix it
+- `/code` and `/bugs` explain code, or find its bugs
+- `/define` a word or phrase
+
+Make your own skills too, or save any question you asked as one.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**Replace and Insert.** Fix a paragraph, shorten an email or translate a message, then press **Replace** and the answer takes the place of your selection. Nothing selected? **Insert** puts it where your cursor was. <kbd>Ctrl</kbd> + <kbd>Z</kbd> undoes it, as usual.
+
+</td>
+<td width="50%" valign="top">
+
+**Snip anything on screen.** Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> and drag a box around a chart, an image, a video frame or a scanned page, then ask about it. Works with AI models that can read images.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Your language.** Set **My language** and the Translate button speaks it. Hindi, Hinglish (Hindi in English letters), Bengali, Marathi, Telugu, Tamil, Gujarati, Urdu, Kannada, Odia, Malayalam, Punjabi and Assamese are suggested, or type any other. Every answer can come in it too. A cloud model handles these languages best.
+
+</td>
+<td width="50%" valign="top">
+
+**Pin and Save.** **Pin** keeps an answer on screen in a small note while you work. **Save** writes it to a Markdown file in a folder you choose, so an Obsidian vault works too.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**A companion with a personality, or none.** Pick Cursora, Ada, Arjun or Sage, make your own with its own name, tone and level of detail, or turn personality off.
+
+</td>
+<td width="50%" valign="top">
+
+**History.** Conversations stay on your computer, searchable, for 90 days unless you choose otherwise. Saving can be switched off. Press **Expand** to carry on in a bigger window.
+
+</td>
+</tr>
+</table>
+
+<br>
 
 ## Your model, your choice
 
+<table>
+<tr>
+<td width="40%" valign="top">
+
+The first-time setup asks one question: **where should answers come from?**
+
+**Download a free model.** One click, and it runs on your computer: free, private, and it works offline. Cursora suggests the size that suits your PC.
+
+- **Small,** 1.1 GB: fastest
+- **Medium,** 2.5 GB: a good balance
+- **Large,** 4.7 GB: best answers, slower
+
+**A cloud provider** gives the best answers, with your own API key.
+
+**A model you already have:** LM Studio, a `.gguf` file, or a server on your network.
+
+</td>
+<td width="60%" valign="top">
+
+<img src="assets/setup.png" width="100%" alt="First-time setup: choose an AI source">
+
+</td>
+</tr>
+</table>
+
 | On your computer | In the cloud, with your own API key |
 |---|---|
-| **Built-in engine:** choose a `.gguf` model file. Works fully offline. | **OpenAI**, **Anthropic**, **Google Gemini** |
+| **Built-in engine:** a one-click model, or any `.gguf` file. Works fully offline. | **OpenAI**, **Anthropic**, **Google Gemini** |
 | **LM Studio**, found automatically | **OpenRouter**, **Groq**, **DeepSeek**, **Mistral** |
 | **Any OpenAI-compatible server:** llama.cpp, vLLM, Jan, LocalAI, KoboldCpp | **Any OpenAI-compatible service** |
 
-A short setup on first start helps you choose, and checks that your model answers before you begin.
+Add as many as you like, and switch between them from the bubble.
 
 <div align="center">
-<img src="assets/models.png" width="640" alt="Settings: models and providers">
+<img src="assets/models.png" width="680" alt="Settings: models and providers">
 </div>
+
+<br>
 
 ## Private by design
 
-- **No account, no telemetry, no analytics.** Cursora talks only to the AI models you set up, plus the once-a-day update check, which downloads one small file from this page and sends nothing about you. You can turn it off.
+- **No account, no telemetry, no analytics.** Cursora talks only to the AI models you set up, plus a once-a-day update check that sends nothing about you. You can turn it off.
 - **Local-only mode:** one switch, and nothing leaves your computer.
-- **Personal details are hidden before they reach a cloud model.** Email addresses, phone numbers, card numbers, IBANs, API keys, and Aadhaar and PAN numbers are replaced with placeholders, then put back in the answer on your side. **What will be sent** shows the exact text before it goes.
-- **Blocked apps:** Cursora never reads from password managers, and you can block any other app in one click.
-- **API keys stay in your system's keychain** (Windows Credential Manager or the Linux Secret Service), never in a file or a log.
-- **Your clipboard is left as it was**, and running programs in a terminal are never interrupted.
+- **Personal details are hidden** before they reach a cloud model: email addresses, phone numbers, card numbers, IBANs, API keys, Aadhaar and PAN numbers. They're put back in the answer on your side, and **What will be sent** shows the exact text first.
+- **Blocked apps:** Cursora never reads password managers, and you can block any other app.
+- **API keys stay in your system's keychain**, never in a file or a log.
+- **Your clipboard is left as it was**, and programs running in a terminal are never interrupted.
 
 <div align="center">
-<img src="assets/privacy.png" width="640" alt="Settings: local-only mode and blocked apps">
+<img src="assets/privacy.png" width="680" alt="Settings: local-only mode and blocked apps">
 </div>
 
-## Platforms
+<br>
 
-| | Windows 10 / 11 | Linux (X11) | Linux (Wayland) |
-|---|:---:|:---:|:---:|
-| Hotkey | Yes | Yes | Through a desktop shortcut |
-| Selected text | Yes | Yes | Yes, with `wl-clipboard` |
-| Selected files | Yes | Yes | No |
-| Bubble at the cursor | Yes | Yes | Centered on screen |
-| Snip | Yes | Yes | From a copied screenshot |
+## Download
+
+| Your system | File |
+|---|---|
+| **Windows 10 / 11** (64-bit) | `Cursora_<version>_x64_en-US.msi` |
+| **Ubuntu, Debian** (beta) | `Cursora_<version>_amd64.deb` |
+| **Fedora** (beta) | `Cursora-<version>-1.x86_64.rpm` |
+| **Any other Linux** (beta) | `Cursora_<version>_amd64.AppImage` |
+
+Get them from the **[latest release](https://github.com/priyansh1210/cursora-releases/releases/latest)**. Each one includes Cursora's built-in AI engine, so there's nothing else to install. After that, Cursora keeps itself up to date: when a new version is out, it says so in its tray menu, and one click installs it.
+
+> [!NOTE]
+> **Windows may say "Windows protected your PC"** when you open the installer. Cursora is new and its installer isn't signed with a paid certificate yet, so Windows doesn't recognise it. Click **More info**, then **Run anyway**.
 
 ## Getting started
 
-1. Download and install Cursora for your system from the [latest release](https://github.com/priyansh1210/cursora-releases/releases/latest).
-2. Follow the short setup: choose an AI model, a personality and your hotkeys.
+1. Install Cursora for your system from the [latest release](https://github.com/priyansh1210/cursora-releases/releases/latest).
+2. Follow the short setup: choose a model, a personality and your hotkeys.
 3. Select some text anywhere and press <kbd>Ctrl</kbd> + <kbd>G</kbd>.
 
 <details>
 <summary><b>Tips</b></summary>
 
-- <kbd>Ctrl</kbd> + <kbd>G</kbd> is "Go to line" in some editors. You can choose another hotkey in **Settings → General**.
+<br>
+
+- <kbd>Ctrl</kbd> + <kbd>G</kbd> is "Go to line" in some editors. Choose another hotkey in **Settings → General**.
 - To read apps that run as administrator, turn on **Settings → General → Run as administrator** (Windows, installed from the `.msi`).
 - On Linux with GNOME, the tray icon needs the AppIndicator extension (Ubuntu has it). Everything also works without it.
 - On Wayland, bind `cursora --ask` to a keyboard shortcut in your desktop's settings. Settings → General shows the exact command.
 
 </details>
 
+<details>
+<summary><b>Windows and Linux, side by side</b></summary>
+
+<br>
+
+| | Windows 10 / 11 | Linux (X11) | Linux (Wayland) |
+|---|:---:|:---:|:---:|
+| Hotkey | Yes | Yes | Through a desktop shortcut |
+| Selected text | Yes | Yes | Yes, with `wl-clipboard` |
+| Selected files | Yes | Yes | No |
+| Bubble at the cursor | Yes | Yes | Centred on screen |
+| Replace and Insert | Yes | Yes | No |
+| Snip | Yes | Yes | From a copied screenshot |
+
+</details>
+
+<details>
+<summary><b>Questions</b></summary>
+
+<br>
+
+**What does a model cost?** Models on your computer are free. A cloud provider bills you for your own API key, as it would anywhere else.
+
+**Does it work offline?** Yes, with the built-in engine or another model on your computer.
+
+**Does Cursora read everything I do?** No. It reads your selection, and the name of the app it's in, only when you press the hotkey.
+
+**Which model should I pick?** Start with the free download that Cursora suggests. For the best answers, and for Indian languages, add a cloud provider.
+
+</details>
+
 ## About this page
 
-This repository hosts Cursora's installers and the small file its updater reads. Each installer comes with a `.sig` signature, so Cursora installs an update only if it was signed by its developer. Cursora's source code is not public.
+This repository hosts Cursora's installers and the small file its updater reads. Each installer comes with a `.sig` signature, so Cursora installs an update only if its developer signed it. Cursora's source code is not public.
 
-Cursora is in **early preview (version 0.1)**. Found a problem or have an idea? [Open an issue](https://github.com/priyansh1210/cursora-releases/issues).
+Cursora is young (version 0.2) and improving quickly. Found a problem or have an idea? **[Open an issue](https://github.com/priyansh1210/cursora-releases/issues).**
 
 <div align="center">
+<br>
 <sub>Made with Tauri, Rust and React.</sub>
 </div>
